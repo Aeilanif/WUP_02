@@ -27,7 +27,6 @@ veggy <- cabbages
 
 predict VitC based on cultivation method.
 VitC is numerical, Cultivation is a Categorical, so we use the numerical-Cat helper file 
-
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
@@ -40,6 +39,11 @@ VitC is numerical, Cultivation is a Categorical, so we use the numerical-Cat hel
 
 ### Numerical Descriptive Results
 
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+According to the graph it seems to be that c52 contains more VitC.
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
